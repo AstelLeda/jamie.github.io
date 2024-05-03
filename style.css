@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('OIP.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    flex: 1;
+}
+
+.logo {
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-nav {
+    flex: 2;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav li {
+    margin-left: 20px;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.welcome-section {
+    background-color: rgba(255, 255, 255, 0); 
+    padding: 50px 0;
+    text-align: center;
+}
+
+.welcome-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.welcome-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
